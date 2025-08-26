@@ -1,0 +1,318 @@
+/* ==============================================project start=============================================================================== */
+/* =========common css start============== */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1290px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* ============common css end============ */
+/* ======banner start============= */
+.banner{
+    height: 1080px;
+    width: 100%;
+    background-image: url(../img/10029\ -\ Copy.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ==========navbar section start============== */
+.head1{
+    padding-top: 25px;
+    text-align: center;
+}
+.logo{
+    width: 20;
+}
+.menu{
+    width: 50%;
+    color: white; 
+    padding-right: 400px; 
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    padding-left: 60px;
+    padding-top: 11px;   
+}
+.menu ul li{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Oswald", sans-serif; 
+    transition: .4s; 
+    cursor: pointer;  
+}
+pre{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Oswald", sans-serif; 
+    transition: .4s; 
+    cursor: pointer;
+}
+.menu ul li:hover{
+    color: #FF4655;
+}
+.end-part{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+i{
+    color: white;
+    padding-left: 25px;
+    transition: .4s;
+}
+i:hover{
+    color: #FF4655;
+
+}
+.end-part a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Oswald", sans-serif;
+    transition: .4s;
+}
+.end-part a:hover{
+    color: #FF4655;
+}
+/* ============navbar section end============= */
+.text1{
+    color: white;
+}
+.text1 h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 27px;
+    font-weight: 400px;
+    padding-top: 270px;
+    letter-spacing: 10px;
+}
+.text1 h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 600px;
+    position: relative; 
+     
+}
+
+.text1 h1::after{
+    background: white;
+    height: 4px;
+    width: 90px;
+    position: absolute;
+    bottom: 18px;
+    left: 517px;
+    content: "";
+}
+.text1 p{
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    width: 521px;
+    padding-bottom: 48px;
+    padding-top: 5px;
+
+}
+.text1 a{
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    background: white;
+    padding: 13px 42px 13px 25px;
+    color: black;
+    position: relative;
+}
+.text1 a:hover{
+    filter: drop-shadow(0 0 10px #FF4655);
+}
+.text1 a img{
+position: absolute;
+top: 20px;
+right: 20px;
+}
+.icon .box i{
+    color: black;
+    padding: 9px 8px;
+    transition: .4s;
+}
+.icon{
+    padding-top: 309px;
+}
+.icon .box{
+    column-gap: 20px;
+}
+.icon .fb{
+    width: 35px;
+    height: 35px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    transition: .4s;
+}
+.icon .fb:hover{
+    background: blue;
+}
+.icon .fb i:hover{
+    color: white;
+    transform: rotate(360deg);
+}
+.icon .in{
+    width: 35px;
+    height: 35px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    transition: .4s;
+}
+.icon .in:hover{
+    background: #0C64C5;  
+}
+.icon .in i:hover{
+    color: white;
+    transform: rotate(360deg);  
+}
+.icon .twitter{
+    width: 35px;
+    height: 35px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    transition: .4s;
+}
+.icon .twitter:hover{
+    background: black;   
+}
+.icon .twitter i:hover{
+    color: white;
+    transform: rotate(360deg);   
+}
+.icon .insta{
+    width: 35px;
+    height: 35px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    transition: .4s;
+}
+.icon .insta:hover{
+    background: #D804E3;
+}
+.icon .insta i:hover{
+    color: white;
+    transform: rotate(360deg);
+}
+/* ======banner end============= */
+/* ======about start============= */
+.about{
+    background: #121212;
+    width: 100%;
+    height: 912px;
+}
+.about h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 38px;
+    letter-spacing: 4px;
+    width: 550px;
+    font-weight: 600px;
+    position: relative;
+    color: white;
+    padding-top: 34px;     
+}
+.about h2::after {
+    background: #FF4655;
+    height: 4px;
+    width: 121px;
+    position: absolute;
+    bottom: 11px;
+    left: 250px;
+    content: "";
+}
+.about img{
+    padding-top: 57px;
+    border-bottom-right-radius: 112px;
+    height: 400px;
+    width: 700px;
+}
+.about .box h4{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 27px;
+    font-weight: 600px;
+    padding-left: 25px;
+}
+.about .box span{
+    color: white;
+    font-family:  "Barlow Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    row-gap: 10px;
+}
+.about .box .right{
+    padding-left: 82px;
+    padding-top: 47px;
+}
+.about .box .right i{
+    padding-top: 11px;
+    
+}
+.about .box .right span{
+    padding-left: 10px;
+
+}
+.about .box .right p{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-left: 25px;
+
+}
+.right .para{
+    display: flex;
+    
+}
+.para{
+    padding-left: 0px;
+
+}
+.right .para span{
+    padding-top: 7px;
+    padding-bottom: 13px;
+}
+.right .btn{
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+.btn a{
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    background: rgb(8, 7, 7);
+    padding: 13px 42px 13px 25px;
+    color: rgb(255, 249, 249);
+    position: relative;
+}
+.btn a:hover{
+    filter: drop-shadow(0 0 10px #FF4655);
+}
+/* .btn a img{
+position: absolute;
+top: 20px;
+right: 20px;
+} */
+
+/* ======about end============= */
